@@ -1,5 +1,5 @@
 # Projects
 
-## This Repo Contains Project of 
+## This Repo Contains Project of:- 
 
-## Spotify_Clone
+## - Spotify_Clone
