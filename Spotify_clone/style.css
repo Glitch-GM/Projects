@@ -60,9 +60,66 @@ h2 {
   gap: 13px;
   position: absolute;
   bottom: 0;
+  padding: 10px;
+}
+
+.right {
+  margin: 15px 0;
 }
 
 .footer a {
   color: #aeb3b3;
   white-space: nowrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(26, 26, 26);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.header > * {
+  padding: 15px;
+}
+
+.spotify-playlist {
+  padding: 10px;
+  font-size: 10px;
+}
+
+.card-container {
+  margin: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 187px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+  position: relative;
+}
+
+.card > * {
+  padding-top: 3px;
+}
+
+.spotify-playlist h1 {
+  padding-left: 18px;
+}
+
+.spotify-playlist img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.play {
+  position: absolute;
+  top: 144px;
+  right: 17px;
+  opacity: 0;
+  transition: all 1s ease-out;
 }
